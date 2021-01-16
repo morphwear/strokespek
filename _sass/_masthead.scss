@@ -22,7 +22,7 @@ header.masthead {
     }
     .intro-heading {
       font-size: 30px;
-      font-weight: 600;
+      font-weight: 500;
       line-height: 30px;
       margin-bottom: 25px;
       @include heading-font;
@@ -32,8 +32,8 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 100px;
+      padding-bottom: 70px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;
