@@ -4,7 +4,7 @@ menu-string: Menu
 
 nav:
   - title: Features
-    url: '#services'
+    url: '#features'
 #   - title: Portfolio
 #     url: '#portfolio'
   - title: About
