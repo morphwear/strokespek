@@ -5,7 +5,7 @@
 }
 
 @media(min-width:768px) {
-	.alternate :nth-child(1) .row { 
+	.reverse { 
 		flex-direction: row-reverse;
 	}
 }
