@@ -35,30 +35,19 @@ features:
 #   heading: Portfolio
 #   subheading: Lorem ipsum dolor sit amet consectetur.
 
+testimonial:
+  text: Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.
+  credentials:  Jim James - CEO of Global Corp.
+  image: img/about/2.jpg
+  alt-text: Leif Kluver
+
 about:
   heading: About
   subheading: Lorem ipsum dolor sit amet consectetur.
-  timeline:
-    - image: img/about/1.jpg
-      date: 2009-2011
-      title: Our Humble Beginnings
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/2.jpg
-      date: March 2011
-      title: An Agency is Born
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/3.jpg
-      date: December 2012
-      title: Transition to Full Service
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-    - image: img/about/4.jpg
-      date: July 2014
-      title: Phase Two Expansion
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+  image: img/about/2.jpg
+  alt-text: Butterfly action shot
+      
 
 # team:
 #   heading: Our Amazing Team
@@ -109,18 +98,18 @@ about:
 #   - img: img/logos/creative-market.jpg   
 #     url: "#"
 
-# contact:
-#   heading: Contact Us
-#   subheading: Lorem ipsum dolor sit amet consectetur.
-#   name: Your Name *
-#   name-required: Please enter your name.
-#   email: Your Email *
-#   email-required: Please enter your email address.
-#   phone: Your Phone *
-#   phone-required: Please enter your phone number.
-#   message: Your Message *
-#   message-required: Please enter a message.
-#   btn: Send Message
+contact:
+  heading: Contact Us
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  name: Your Name *
+  name-required: Please enter your name.
+  email: Your Email *
+  email-required: Please enter your email address.
+  phone: Your Phone *
+  phone-required: Please enter your phone number.
+  message: Your Message *
+  message-required: Please enter a message.
+  btn: Send Message
 
 #   js-url: '././mail/contact_me.php'
 #   js-success: 'Your message has been sent. '
