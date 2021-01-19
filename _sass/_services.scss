@@ -5,7 +5,7 @@
 }
 
 @media(min-width:768px) {
-	.row section:nth-child(even) {
+	.myfeature :nth-child(even) {
 		flex-direction: row-reverse;
 	}
 }
