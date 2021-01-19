@@ -49,37 +49,20 @@ layout: default
         {% assign ws = '' %}
       </div>
     </section>
-    
-    <!-- Features2 -->
-    <section>
-      <div class="container flex">
-        <div class="text">
-          <h2>See Patterns That Aren't Noticeable</h2>
-          <p>Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.</p>
-        </div>
-        <div class="image">
-          <!-- img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable"/ -->
-          <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-universal-access fa-stack-1x fa-inverse"></i>
-          </span>
-        </div>
-      </div>
-    </section>
 
 
     <!-- Social Proof -->
     <section id="testimonial" class="testimonial">
       <div class="container">
-        <div class="testimonial-block">
-          <div class="square-image"><img src="{{ site.data.home.testimonial.image }}" alt="{{ site.data.home.testimonial.alt-text }}"></div>
-          <blockquote>
-            <p class="">{{ site.data.home.testimonial.text }}</p>
-            <p class="author">{{ site.data.home.testimonial.credentials }}</p>
-          </blockquote> 
-        </div>
+	<div class="row testimonial-block">
+	  <div class="col-md-4 square-image "><img src="{{ site.data.home.testimonial.image }}" alt="{{ site.data.home.testimonial.alt-text }}"></div>
+	  <blockquote class="col-md-8">
+	    <p class="">{{ site.data.home.testimonial.text }}</p>
+	    <p class="author">{{ site.data.home.testimonial.credentials }}</p>
+	  </blockquote> 
+	</div>	
       </div>
-	  </section>
+    </section>
 
     <!-- CTA -->
 
@@ -97,7 +80,7 @@ layout: default
           </div>
         </div>
         <div class="row">
-          <div class="about-image">
+          <div class="about-image text-center">
             <img src="{{ site.data.home.about.image }}" alt="{{ site.data.home.about.alt-text }}">
           </div>
         </div>
