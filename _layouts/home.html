@@ -29,10 +29,10 @@ layout: default
       </div>
     </section>
 
-    {%- for service in site.data.home.features.feature -%}
-    {% assign ws = '' %}
     <section>
-      <div class="container">     
+      {%- for service in site.data.home.features.feature -%}
+      {% assign ws = '' %}
+      <div class="container myfeature">     
         <div class="row"> 
           <div class="col-md-6 text-center">
             <span class="fa-stack fa-4x">
@@ -46,10 +46,10 @@ layout: default
           </div>
         </div>
       </div>
+      {%- endfor -%}
+      {% assign ws = '' %}
     </section>
-    {%- endfor -%}
-    {% assign ws = '' %}
-
+    
     <!-- Features2 -->
     <section>
       <div class="container flex">
