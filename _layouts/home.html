@@ -26,9 +26,14 @@ layout: default
             <h3 class="section-subheading text-muted">{{ site.data.home.features.subheading }}</h3>
           </div>
         </div>
-        {%- for service in site.data.home.features.feature -%}
-        {% assign ws = '' %}
-        <div class="row"> 
+      </div>
+    </section>
+
+    {%- for service in site.data.home.features.feature -%}
+    {% assign ws = '' %}
+    <section>
+      <div class="container myfeature">     
+        <div class="row flex"> 
           <div class="col-md-6">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -40,10 +45,28 @@ layout: default
             <p class="text-muted">{{ service.text }}</p>
           </div>
         </div>
-        {%- endfor -%}
-        {% assign ws = '' %}
       </div>
     </section>
+    {%- endfor -%}
+    {% assign ws = '' %}
+
+    <!-- Features2 -->
+    <section>
+      <div class="container flex">
+        <div class="text">
+          <h2>See Patterns That Aren't Noticeable</h2>
+          <p>Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.</p>
+        </div>
+        <div class="image">
+          <!-- img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable"/ -->
+          <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-universal-access fa-stack-1x fa-inverse"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+
 
     <!-- About -->
     <section id="about">
