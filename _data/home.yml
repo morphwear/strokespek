@@ -5,17 +5,17 @@ intro:
 
 features:
   heading: Features
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: Perspective, Comparable, Instant
   feature:
-    - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-laptop
-      heading: Responsive Design
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-lock
-      heading: Web Security
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: fa fa-universal-access
+      heading: See Patterns That Aren't Noticeable
+      text: Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
+    - icon: fa fa-poll
+      heading: Compare For Yourself. Find What Works Best
+      text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
+    - icon: fa fa-clock
+      heading: Train Smarter With Feedback
+      text: Practice technique on your own with wearable sensors providing instant results to your phone or tablet.
 
 # services:
 #   heading: Services
