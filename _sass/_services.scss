@@ -3,3 +3,9 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+@media #{$desktop} {
+	.myfeature section:nth-child(even) .flex {
+		flex-direction: row-reverse;
+	}
+}
