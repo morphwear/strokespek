@@ -30,9 +30,9 @@ layout: default
     </section>
 
     <section>
-      {%- for service in site.data.home.features.feature -%}
-      {% assign ws = '' %}
-      <div class="container myfeature">     
+      <div class="container myfeature">
+        {%- for service in site.data.home.features.feature -%}
+        {% assign ws = '' %}
         <div class="row"> 
           <div class="col-md-6 text-center">
             <span class="fa-stack fa-4x">
@@ -45,9 +45,9 @@ layout: default
             <p class="text-muted">{{ service.text }}</p>
           </div>
         </div>
+        {%- endfor -%}
+        {% assign ws = '' %}
       </div>
-      {%- endfor -%}
-      {% assign ws = '' %}
     </section>
     
     <!-- Features2 -->
