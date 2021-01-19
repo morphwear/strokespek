@@ -33,7 +33,12 @@ layout: default
       <div class="container alternate">
         {%- for service in site.data.home.features.feature -%}
         {% assign ws = '' %}
-        <div class="row"> 
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% if loopindex == 1 %}
+        <div class="row reverse"> 
+          {% else %}
+        <div class="row">
+          {% endif %}
           <div class="col-md-6 text-center">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
