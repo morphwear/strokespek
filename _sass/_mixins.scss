@@ -1,10 +1,17 @@
 // Mixins
 // Background Cover Mixin
-@mixin background-cover {
+@mixin background-desktop {
   -webkit-background-size: auto 100%;
   -moz-background-size: auto 100%;
   -o-background-size: auto 100%;
   background-size: auto 100%;
+}
+
+@mixin background-mobile {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 // Font Mixins
