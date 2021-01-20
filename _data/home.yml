@@ -36,6 +36,7 @@ features:
 #   subheading: Lorem ipsum dolor sit amet consectetur.
 
 testimonial:
+  heading: Succcess stories
   text: Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.
   credentials:  Jim James - CEO of Global Corp.
   image: img/about/2.jpg
@@ -63,30 +64,6 @@ about:
 #           url: "#"
 #         - icon: fa fa-linkedin
 #           url: "#"
-        
-#     - name: Larry Parker
-#       role: Lead Marketer
-#       img: img/team/2.jpg
-#       social-buttons:
-#         - icon: fa fa-twitter
-#           url: "#"
-#         - icon: fa fa-facebook
-#           url: "#"
-#         - icon: fa fa-linkedin
-#           url: "#"
-
-#     - name: Diana Pertersen
-#       role: Lead Developer
-#       img: img/team/3.jpg
-#       social-buttons:
-#         - icon: fa fa-twitter
-#           url: "#"
-#         - icon: fa fa-facebook
-#           url: "#"
-#         - icon: fa fa-linkedin
-#           url: "#"
-
-#   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
 # clients:
 #   - img: img/logos/envato.jpg
