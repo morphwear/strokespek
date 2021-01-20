@@ -41,10 +41,11 @@ header.masthead {
     background-attachment: scroll;
     background-position: center center;
     background-size: auto 100%;
-    @include background-cover;
+    @include background-desktop;
     .intro-text {
       padding-top: 50px;
       padding-bottom: 70px;
+      padding-left: 45%
       .intro-title {
         font-size: 48px;
         font-style: italic;
