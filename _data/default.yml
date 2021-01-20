@@ -5,23 +5,17 @@ menu-string: Menu
 nav:
   - title: Features
     url: '#features'
-#   - title: Portfolio
-#     url: '#portfolio'
   - title: About
     url: '#about'
-#   - title: Team
-#     url: '#team'
   - title: Contact
     url: '#contact'
 
-copyright: Copyright &copy; Morphwear 2021
+copyright: Copyright &copy; Morphwear LLC 2021
 
 social-buttons:
   - icon: fa fa-twitter
     url: '#' 
-  - icon: fa fa-facebook
-    url: '#'
-  - icon: fa fa-linkedin
+  - icon: fa fa-instagram
     url: '#'
 
 quicklinks:
