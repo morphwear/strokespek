@@ -34,6 +34,22 @@ header.masthead {
     }
   }
 }
+@media(max-width:425px) {
+  header.masthead {
+    background-size: auto 90%;
+    @include background-mini;
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 50px;
+      .intro-title {
+        margin-bottom: 16px;
+      }
+      .intro-lead-in {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
 @media(min-width:768px) {
   header.masthead {
     background-image: url('../img/header-bg.jpg');
