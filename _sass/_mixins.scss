@@ -14,6 +14,14 @@
   background-size: cover;
 }
 
+@mixin background-mini {
+  -webkit-background-size: auto 90%;
+  -moz-background-size: auto 90%;
+  -o-background-size: auto 90%;
+  background-size: auto 90%;
+}
+
+
 // Font Mixins
 @mixin serif-font {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
