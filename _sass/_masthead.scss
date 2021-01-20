@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: black;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/mobile-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -12,7 +12,7 @@ header.masthead {
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 45%;
+    padding-left: 0%;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -31,6 +31,12 @@ header.masthead {
 }
 @media(min-width:768px) {
   header.masthead {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: auto 100%;
+    @include background-cover;
     .intro-text {
       padding-top: 100px;
       padding-bottom: 70px;
