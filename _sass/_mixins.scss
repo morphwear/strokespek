@@ -41,5 +41,5 @@ $moreBlue: #89bcca;
 $lessBlue: #bdd9e1;
 
 @mixin bg-gradient {
-  -webkit-linear-gradient(0deg, $moreBlue, $lessBlue);
+  background: -webkit-linear-gradient(0deg, $moreBlue, $lessBlue);
 }
