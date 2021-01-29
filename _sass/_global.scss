@@ -1,11 +1,15 @@
 // Global styling for this template
+html * {
+  color: $gray-800;
+}
+
 body {
   overflow-x: hidden;
   @include body-font;
 }
 
 p {
-  line-height: 1.75;
+  line-height: 76px; //1.75;
 }
 
 a {
@@ -19,8 +23,26 @@ a {
   color: $primary !important;
 }
 
-h1,
-h2,
+h1 {
+  font-weight: 400;
+  @include heading-font;
+  @include bg-gradient;
+  //background: $gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+h2 {
+  font-weight: 400;
+  @include heading-font;
+  font-size: 64px;
+  line-height: 76px;
+}
+
 h3,
 h4,
 h5,
@@ -54,16 +76,16 @@ section {
 // Button Styles
 .btn {
   @include heading-font;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .btn-xl {
-  font-size: 18px;
+  font-size: 64px;
   padding: 20px 40px;
 }
 
 .btn-sm {
-  font-size: 16px;
+  font-size: 64px;
   padding: 16px 32px;
 }
 
