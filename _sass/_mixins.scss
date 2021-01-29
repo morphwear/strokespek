@@ -35,3 +35,11 @@
 @mixin heading-font {
   font-family: 'Raleway', 'Lato', 'Roboto Slab', 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+
+$moreBlue: #89bcca;
+$lessBlue: #bdd9e1;
+
+@mixin bg-gradient {
+  -webkit-linear-gradient(0deg, $moreBlue, $lessBlue);
+}
