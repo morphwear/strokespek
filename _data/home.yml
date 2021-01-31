@@ -1,8 +1,9 @@
 intro:
+  lead-in: Refine your stroke with
   title: Strokespek
-  lead-in: Refine your stroke from a new perspective to swim faster smarter.
-  heading: Our wearable sensors capture and process your swim stroke to reveal the finer details of your technique.
+  heading: A new perspective for swimming faster smarter
   btn: Learn More
+  description: Our wearable sensors capture and process your swim stroke to reveal the finer details of your technique.
 
 features:
   heading: Features
