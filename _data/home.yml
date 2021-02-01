@@ -9,8 +9,8 @@ features:
   one:
     heading: Train Smarter With Feedback
     subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
-    image: /tmp
-    subimage: /tmp
+    image: img/about/2.jpg
+    subimage: img/about/2.jpg
     alt-text: Overhead shot of sensor on swimmer
   two:
     heading: 
@@ -18,18 +18,18 @@ features:
       - part: Performance Opportunities
     feature:
       - subheading: Vertical pull versus stroke width
-        image: /tmp
+        image: img/about/2.jpg
         alt-text: Stroke path
       - subheading: Left side speed versus right side speed
-        image: /tmp
+        image: img/about/2.jpg
         alt-text: Stroke progressions
   three:
     heading: Compare For Yourself. See What Works Best.
     text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
-    image: /tmp
+    image: img/about/2.jpg
     alt-text: Stroke path comparisons
   transiton:
-    image: /tmp
+    image: img/about/2.jpg
     alt-text: Wave transition
     
 # Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
