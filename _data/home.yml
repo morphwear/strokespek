@@ -18,7 +18,7 @@ features:
       - Performance Opportunities
     feature:
       - subheading: Vertical pull versus stroke width
-        image: img/paths.png
+        image: img/charts_paths.png
         alt-text: Stroke path
       - subheading: Left side speed versus right side speed
         image: img/charts_progression.png
@@ -28,7 +28,7 @@ features:
     text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
     image: img/charts_compare.png
     alt-text: Stroke path comparisons
-  transiton:
+  transition:
     image: img/wave_page_break.png
     alt-text: Wave transition
     
