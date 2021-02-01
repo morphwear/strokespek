@@ -113,13 +113,11 @@ layout: default
       </div>
     </div>
     <div class="row">
+      <div class="col-md-6">	     
       {%- for text in site.data.home.about.text -%}
-      <div class="col-md-6">
-        {%- for content in text.p -%}	     
         <p>{{ content }}</p>
-        {%- end for -%}
+      {%- endfor -%}
       </div>
-    {%- endfor -%}
     </div>
   </div>
 </section>
