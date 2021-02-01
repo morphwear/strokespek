@@ -1,1 +1,76 @@
+intro:
+  lead-in: Refine your stroke with
+  title: Strokespek
+  heading: A new perspective for swimming faster smarter
+  btn: Learn More
+  description: Our wearable sensors capture and process your swim stroke to reveal the finer details of your technique.
+
+features:
+  one:
+    heading: Train Smarter With Feedback
+    subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
+    image: img/about/2.jpg
+    subimage: img/about/2.jpg
+    alt-text: Overhead shot of sensor on swimmer
+  two:
+    heading: 
+      - Identify Key 
+      - Performance Opportunities
+    feature:
+      - subheading: Vertical pull versus stroke width
+        image: img/about/2.jpg
+        alt-text: Stroke path
+      - subheading: Left side speed versus right side speed
+        image: img/about/2.jpg
+        alt-text: Stroke progressions
+  three:
+    heading: Compare For Yourself. See What Works Best.
+    text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
+    image: img/about/2.jpg
+    alt-text: Stroke path comparisons
+  transiton:
+    image: img/about/2.jpg
+    alt-text: Wave transition
+    
+# Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
+
+testimonial:
+  section-heading: Testimonial
+  heading: Leif Kluver
+  credentials:  testy test #"D2 All American 1:36.08 200 Free"
+  text: “Great product. Absolutely recommend giving it a try! I was able to drop about .3 seconds on average per 25 on a set of 6x25 after reviewing initial measurements of the same set and implementing suggestions on how to change me stroke slightly.”
+  image: img/about/2.jpg
+  alt-text: Leif Kluver
+
+# about:
+#   heading: Insights for the next generation
+#   image: img/butterfly_swim.jpg
+#   text: 
+#     - p: 
+#       - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
+#       - "Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek."
+#     - p: 
+#       - "In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier."
+#       - "To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others." 
+#   alt-text: Water burst
+      
+# footer:
+#   text: Sign-up to our email list to learn more
+#   links:
+#     - name: Features
+#   subheading: Lorem ipsum dolor sit amet consectetur.
+#   name: Your Name *
+#   name-required: Please enter your name.
+#   email: Your Email *
+#   email-required: Please enter your email address.
+#   phone: Your Phone *
+#   phone-required: Please enter your phone number.
+#   message: Your Message *
+#   message-required: Please enter a message.
+#   btn: Send Message
+
+#   js-url: '././mail/contact_me.php'
+#   js-success: 'Your message has been sent. '
+#   js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
+#   js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'
 
