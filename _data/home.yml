@@ -6,89 +6,55 @@ intro:
   description: Our wearable sensors capture and process your swim stroke to reveal the finer details of your technique.
 
 features:
-  heading: Features
-  subheading: Perspective, Comparable, Instant
-  feature:
-    - icon: fa fa-universal-access
-      heading: See Patterns That Aren't Noticeable
-      text: Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
-    - icon: fa fa-poll
-      heading: Compare For Yourself. Find What Works Best
-      text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
-    - icon: fa fa-clock
-      heading: Train Smarter With Feedback
-      text: Practice technique on your own with wearable sensors providing instant results to your phone or tablet.
-
-# services:
-#   heading: Services
-#   subheading: Lorem ipsum dolor sit amet consectetur.
-#   service:
-#     - icon: fa fa-shopping-cart
-#       heading: E-Commerce
-#       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-#     - icon: fa fa-laptop
-#       heading: Responsive Design
-#       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-#     - icon: fa fa-lock
-#       heading: Web Security
-#       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-# portfolio:
-#   heading: Portfolio
-#   subheading: Lorem ipsum dolor sit amet consectetur.
+  one:
+    heading: Train Smarter With Feedback
+    subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
+    image: /tmp
+    subimage: /tmp
+  two:
+    heading: Identify Key Performance Opportunities
+    feature:
+      - subheading: Vertical pull versus stroke width
+        image: /tmp
+      - subheading: Left side speed versus right side speed
+        image: /tmp
+  three:
+    heading: Compare For Yourself. See What Works Best.
+    text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
+    image: /tmp
+    
+# Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
 
 testimonial:
-  heading: Succcess stories
-  text: Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.
-  credentials:  Jim James - CEO of Global Corp.
+  section-heading: Testimonial
+  heading: Leif Kluver
+  credentials:  D2 All American 1:36.08 200 Free
+  text: “Great product. Absolutely recommend giving it a try! I was able to drop about .3 seconds on average per 25 on a set of 6x25 after reviewing initial measurements of the same set and implementing suggestions on how to change me stroke slightly.”
   image: img/about/2.jpg
   alt-text: Leif Kluver
 
 about:
-  heading: About
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+  heading: Insights for the next generation
   image: img/butterfly_swim.jpg
-  alt-text: Butterfly action shot
+  text: 
+    - p1: Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.   Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek.
+    - p2: In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier.   To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others. 
+  alt-text: Water burst
       
-
-# team:
-#   heading: Our Amazing Team
+# footer:
+#   text: Sign-up to our email list to learn more
+#   links:
+#     - name: Features
 #   subheading: Lorem ipsum dolor sit amet consectetur.
-#   members:
-#     - name: Kay Garland
-#       role: Lead Designer
-#       img: img/team/1.jpg
-#       social-buttons:
-#         - icon: fa fa-twitter
-#           url: "#" 
-#         - icon: fa fa-facebook
-#           url: "#"
-#         - icon: fa fa-linkedin
-#           url: "#"
-
-# clients:
-#   - img: img/logos/envato.jpg
-#     url: "#"
-#   - img: img/logos/designmodo.jpg
-#     url: "#"
-#   - img: img/logos/themeforest.jpg
-#     url: "#"
-#   - img: img/logos/creative-market.jpg   
-#     url: "#"
-
-contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  name: Your Name *
-  name-required: Please enter your name.
-  email: Your Email *
-  email-required: Please enter your email address.
-  phone: Your Phone *
-  phone-required: Please enter your phone number.
-  message: Your Message *
-  message-required: Please enter a message.
-  btn: Send Message
+#   name: Your Name *
+#   name-required: Please enter your name.
+#   email: Your Email *
+#   email-required: Please enter your email address.
+#   phone: Your Phone *
+#   phone-required: Please enter your phone number.
+#   message: Your Message *
+#   message-required: Please enter a message.
+#   btn: Send Message
 
 #   js-url: '././mail/contact_me.php'
 #   js-success: 'Your message has been sent. '
