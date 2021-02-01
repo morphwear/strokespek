@@ -108,14 +108,14 @@ layout: default
 <section id="about">
   <div class="container">
     <div class="row">
-      <div>
+      <div style="width: 100%">
 	<img src="{{ site.data.home.about.image }}" alt="{{ site.data.home.about.alt-text }}/>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">	     
-      {%- for paragraph in site.data.home.about.text -%}
-        <p>{{ paragraph }}</p>
+      {%- for content in site.data.home.about.text -%}
+        <p>{{ content }}</p>
       {%- endfor -%}
       </div>
     </div>
