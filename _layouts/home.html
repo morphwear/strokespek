@@ -11,7 +11,7 @@ layout: default
       <div class="container">
         <div class="intro-text">
 	  <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
-          <div class="intro-title ">
+          <div style="background-color: black" class="intro-title ">
 	    <h1 class="text-gradient">{{ site.data.home.intro.title }}</h1>
 	  </div>
           <div class="intro-heading">{{ site.data.home.intro.heading }}</div>
@@ -38,7 +38,7 @@ layout: default
       <div class="container">
         <div class="row">
 		<div class="col-md-6 text-center">
-			<div style="color: black" class="">   
+			<div style="background-color: black" class="">   
 				<h1 class="text-gradient text-uppercase">{{ site.data.home.features.one.heading }}</h1>
 	  		</div>
 			<div>
@@ -79,28 +79,28 @@ layout: default
     </section>
 
 
-    <!-- Social Proof -->
+    <!-- Testimonial -->
     <section id="testimonial">
       <div class="container">
 	<div class="row">
 	  <div class="col-lg-12 text-center">
-		<h2 class="section-heading text-uppercase">{{ site.data.home.testimonial.section-heading }}</h2>
+		<h2 class="text-uppercase">{{ site.data.home.testimonial.section-heading }}</h2>
 	  </div>
 	</div>
 	<div class="row">
 	  <div class="col-md-6 text-center">
-		  <img src="{{ site.data.home.testimonial.image }}" alt="{{ site.data.home.testimonial.alt-text }}">
+            <img style="width: 100%" src="{{ site.data.home.testimonial.image }}" alt="{{ site.data.home.testimonial.alt-text }}">
 	  </div>
 	  <div class="col-md-6 text-center">
-		<div style="color: black" class="">   
-				<h1 class="text-gradient text-uppercase">{{ site.data.home.testimonial.heading }}</h1>
-	  	</div>
-		<div>
-		  <h4> class="text-uppercase">{{ site.data.home.testimonial.credentials }}</h4>  
-		</div>
-		<blockquote>
-		    <p class="">{{ site.data.home.testimonial.text }}</p>
-		</blockquote> 
+	    <div style="background-color: black" class="">   
+	      <h1 class="text-gradient text-uppercase">{{ site.data.home.testimonial.heading }}</h1>
+	    </div>
+	    <div>
+	      <h4> class="text-uppercase">{{ site.data.home.testimonial.credentials }}</h4>  
+	    </div>
+	    <blockquote>
+	      <p class="">{{ site.data.home.testimonial.text }}</p>
+	    </blockquote> 
 	  </div>
 	</div>	
       </div>
