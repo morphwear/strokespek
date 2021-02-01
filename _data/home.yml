@@ -9,8 +9,8 @@ features:
   one:
     heading: Train Smarter With Feedback
     subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
-    image: img/about/2.jpg
-    subimage: img/about/2.jpg
+    image: img/valueprop.png
+    subimage: img/devices.png
     alt-text: Overhead shot of sensor on swimmer
   two:
     heading: 
@@ -18,18 +18,18 @@ features:
       - Performance Opportunities
     feature:
       - subheading: Vertical pull versus stroke width
-        image: img/about/2.jpg
+        image: img/paths.png
         alt-text: Stroke path
       - subheading: Left side speed versus right side speed
-        image: img/about/2.jpg
+        image: img/charts_progression.png
         alt-text: Stroke progressions
   three:
     heading: Compare For Yourself. See What Works Best.
     text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
-    image: img/about/2.jpg
+    image: img/charts_compare.png
     alt-text: Stroke path comparisons
   transiton:
-    image: img/about/2.jpg
+    image: img/wave_page_break.png
     alt-text: Wave transition
     
 # Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
@@ -39,12 +39,12 @@ testimonial:
   heading: Leif Kluver
   credentials: "D2 All American 1:36.08 200 Free"
   text: “Great product. Absolutely recommend giving it a try! I was able to drop about .3 seconds on average per 25 on a set of 6x25 after reviewing initial measurements of the same set and implementing suggestions on how to change me stroke slightly.”
-  image: img/about/2.jpg
+  image: img/testimonial.png
   alt-text: Leif Kluver
 
 about:
   heading: Insights for the next generation
-  image: img/butterfly_swim.jpg
+  image: img/about.png
   text:  
     - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
     - "Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek." 
