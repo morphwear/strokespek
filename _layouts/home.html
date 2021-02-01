@@ -13,7 +13,7 @@ layout: default
     <div class="intro-text">
       <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
         <div class="intro-title ">
-          <h1 class="text-gradient">{{ site.data.home.intro.title }}</h1>
+          <h1 class="text-gradient text-uppercase">{{ site.data.home.intro.title }}</h1>
         </div>
       <div class="intro-heading">{{ site.data.home.intro.heading }}</div>
       <a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn }}</a>
@@ -22,6 +22,7 @@ layout: default
 </header>
 
 <!-- Description -->
+<hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
 <section id="description">
   <div class="container">
     <div class="row">
@@ -31,11 +32,12 @@ layout: default
     </div>
   </div>
 </section>
+<hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
 
 <!-- Features -->
 <section id="features">
   <div class="container">
-	  
+    <!-- Feature 1 -->	  
     <div class="row">
       <div class="col-md-6 text-center">
 	<div style="background-color: black" class="">   
@@ -50,7 +52,7 @@ layout: default
       </div>
       <img style="width: 100%" src="{{ site.data.home.features.transition.image }}" alt="{{ site.data.home.features.transition.alt-text }}" />
     </div>
-
+    <!-- Feature 2 -->
     <div class="row">
       <div class="col-lg-12 text-center">
 	{%- for content in site.data.home.features.two.heading -%}
@@ -66,7 +68,7 @@ layout: default
       </div>
       {%- endfor -%}
     </div>
-
+    <!-- Feature 3 -->
     <div class="row">
       <div class="col-lg-12 text-center">
 	<h2>{{ site.data.home.features.three.heading }}</h2>
