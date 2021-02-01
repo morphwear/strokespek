@@ -4,6 +4,8 @@ intro:
   heading: A new perspective for swimming faster smarter
   btn: Learn More
   description: Our wearable sensors capture and process your swim stroke to reveal the finer details of your technique.
+  image: img/hero.png
+  alt-text: Freestyle swim with sensor
 
 features:
   one:
