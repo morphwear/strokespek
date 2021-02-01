@@ -32,3 +32,46 @@ layout: default
   </div>
 </section>
 
+<!-- Features -->
+<section id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+	<div style="background-color: black" class="">   
+	  <h1 class="text-gradient text-uppercase">{{ site.data.home.features.one.heading }}</h1>
+	</div>
+	<div>
+	  <h4>{{  site.data.home.features.one.subheading  }}</h4>
+	</div>
+      </div>
+      <div class="col-md-6 text-center">
+	<img src="{{ site.data.home.features.one.image }}" alt="{{ site.data.home.features.one.alt-text }}" />
+      </div>
+      <img class="full-width" src="{{ site.data.home.features.transition.image }}" alt="{{ site.data.home.features.transition.alt-text }}" />
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+	{%- for heading in site.data.home.features.two.heading -%}
+	<h2>{{ heading.part }}</h2>
+	{%- endfor -%}
+      </div>
+      {%- for feature in site.data.home.features.two.feature -%}
+      <div class="col-md-6 text-center">
+        <div>
+	  <h4>{{ feature.subheading }}</h4>
+	</div>
+	<img src="{{ feature.image }}" alt="{{ feature.alt-text }}"/>
+      </div>
+      {%- endfor -%}
+    </div>
+	    
+    <div class="row">
+      <div class="col-lg-12 text-center">
+	<h2>{{ site.data.home.features.three.heading }}</h2>
+	<h4>{{ site.data.home.features.three.text }}</h4>
+	<img src="{{ site.data.home.features.three.image }}" alt="{{ site.data.home.features.three.alt-text }}"/>
+      </div>
+    </div>		 
+  </div>
+</section> 
