@@ -11,17 +11,26 @@ features:
     subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
     image: /tmp
     subimage: /tmp
+    alt-text: Overhead shot of sensor on swimmer
   two:
-    heading: Identify Key Performance Opportunities
+    heading: 
+      - part: Identify Key 
+      - part: Performance Opportunities
     feature:
       - subheading: Vertical pull versus stroke width
         image: /tmp
+        alt-text: Stroke path
       - subheading: Left side speed versus right side speed
         image: /tmp
+        alt-text: Stroke progressions
   three:
     heading: Compare For Yourself. See What Works Best.
     text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
     image: /tmp
+    alt-text: Stroke path comparisons
+  transiton:
+    image: /tmp
+    alt-text: Wave transition
     
 # Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
 
@@ -37,8 +46,8 @@ about:
   heading: Insights for the next generation
   image: img/butterfly_swim.jpg
   text: 
-    - p1: Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.   Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek.
-    - p2: In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier.   To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others. 
+    - p: Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.   Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek.
+    - p: In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier.   To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others. 
   alt-text: Water burst
       
 # footer:
