@@ -37,7 +37,7 @@ features:
 testimonial:
   section-heading: Testimonial
   heading: Leif Kluver
-  credentials:  D2 All American 1:36.08 200 Free
+  credentials:  "D2 All American 1:36.08 200 Free"
   text: “Great product. Absolutely recommend giving it a try! I was able to drop about .3 seconds on average per 25 on a set of 6x25 after reviewing initial measurements of the same set and implementing suggestions on how to change me stroke slightly.”
   image: img/about/2.jpg
   alt-text: Leif Kluver
