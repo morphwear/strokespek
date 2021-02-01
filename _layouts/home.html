@@ -119,7 +119,9 @@ layout: default
 	<div class="row">
 		{%- for text in site.data.home.about.text -%}
 		<div class="col-md-6">
-		  <p {{ text.p }} />
+		  {%- for content in text.p -%}	     
+		  <p {{ content }} />
+	          {%- end for -%}
 		</div>
 	        {%- endfor -%}
 	</div>
