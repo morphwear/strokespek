@@ -38,15 +38,15 @@ a {
 h1 {
   font-weight: 400;
   @include heading-font;  
-  font-size: 64px;
-  line-height: 76px;
+  //font-size: 64px;
+  //line-height: 76px;
 }
 
 h2 {
   font-weight: 400;
   @include heading-font;
-  font-size: 64px;
-  line-height: 76px;
+  //font-size: 64px;
+  //line-height: 76px;
 }
 
 h3,
