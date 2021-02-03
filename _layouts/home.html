@@ -124,14 +124,14 @@ layout: default
     </div>
     <div style="font-size: 1.2em;" class="row">
       <div class="col-sm-6">	     
-      {%- for content in site.data.home.about.text.columnA -%}
-        <p>{{ content }}</p>
-      {%- endfor -%}
+        {%- for text in site.data.home.about.text.columnA -%}
+        <p>{{ text }}</p>
+        {%- endfor -%}
       </div>
       <div class="col-sm-6">	     
-      {%- for content in site.data.home.about.text.columnB -%}
-        <p>{{ content }}</p>
-      {%- endfor -%}
+        {%- for text in site.data.home.about.text.columnB -%}
+        <p>{{ text }}</p>
+        {%- endfor -%}
       </div>
     </div>
   </div>
