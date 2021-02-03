@@ -37,19 +37,21 @@ a {
 
 h1 {
   font-weight: 400;
-  @include heading-font;
   margin-bttom: 0px;
-  //font-size: 64px;
-  //line-height: 76px;
 }
 
 h2 {
   font-weight: 400;
-  @include heading-font;
-  //font-size: 64px;
-  //line-height: 76px;
 }
 
+h4 {
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 2.5vw;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
