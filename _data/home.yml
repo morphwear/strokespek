@@ -9,11 +9,14 @@ intro:
 
 features:
   one:
-    heading: Train Smarter With Feedback
+    heading: 
+      - Train Smarter
+      - With Feedback
     subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
     image: img/valueprop.png
-    subimage: img/devices_morphwear.png
     alt-text: Overhead shot of sensor on swimmer
+    subimage: img/devices_morphwear.png
+    sub-alt-text: Computer devices running Morphwear
   two:
     heading: 
       - Identify Key 
