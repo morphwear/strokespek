@@ -37,7 +37,8 @@ a {
 
 h1 {
   font-weight: 400;
-  @include heading-font;  
+  @include heading-font;
+  margin-bttom: 0px;
   //font-size: 64px;
   //line-height: 76px;
 }
