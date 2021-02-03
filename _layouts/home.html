@@ -122,9 +122,14 @@ layout: default
 	<img style="width: 100%" src="{{ site.data.home.about.image }}" alt="{{ site.data.home.about.alt-text }}"/>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">	     
-      {%- for content in site.data.home.about.text -%}
+    <div style="font-size: 1.2em;" class="row">
+      <div class="col-sm-6">	     
+      {%- for content in site.data.home.about.text.column1 -%}
+        <p>{{ content }}</p>
+      {%- endfor -%}
+      </div>
+      <div class="col-sm-6">	     
+      {%- for content in site.data.home.about.text.column2 -%}
         <p>{{ content }}</p>
       {%- endfor -%}
       </div>
