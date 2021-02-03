@@ -47,10 +47,10 @@ layout: default
 	<div>
 	  <h4>{{  site.data.home.features.one.subheading  }}</h4>
 	</div>
-	<img style="width: 100%; object-fit: fill; float: bottom; margin-top: 1em;" src="{{ site.data.home.features.one.subimage }}" alt="{{ site.data.home.features.one.sub-alt-text }}" />
+	<img style="width: 100%; object-fit: cover; float: bottom; margin-top: 1em;" src="{{ site.data.home.features.one.subimage }}" alt="{{ site.data.home.features.one.sub-alt-text }}" />
       </div>
       <div class="col-md-6 text-center">
-	<img style="width: 100%" src="{{ site.data.home.features.one.image }}" alt="{{ site.data.home.features.one.alt-text }}" />
+	<img style="width: 120%; margin-left: -10%" src="{{ site.data.home.features.one.image }}" alt="{{ site.data.home.features.one.alt-text }}" />
       </div>
       <img style="width: 100%" src="{{ site.data.home.features.transition.image }}" alt="{{ site.data.home.features.transition.alt-text }}" />
     </div>
@@ -70,6 +70,7 @@ layout: default
       </div>
       {%- endfor -%}
     </div>
+    <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%; padding: 2em 0;">
     <!-- Feature 3 -->
     <div class="row">
       <div class="col-lg-12 text-center feature-heading">
