@@ -8,6 +8,12 @@ header.masthead {
   background-position: center top;
   background-size: cover;
   @include background-mobile;
+  .image {
+      width: 50vw;
+    float: right;
+    object-fit: cover;
+    margin-top: 6vw;
+  }
   .intro-text {
     margin-top: 6vw;
     padding-top: 8vw;
