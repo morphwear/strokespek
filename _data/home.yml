@@ -51,10 +51,10 @@ about:
   heading: Insights for the next generation
   image: img/about.png
   text:
-    column1:
+    columnA:
       - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
       - "Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek." 
-    column2: 
+    columnB: 
       - "In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier."
       - "To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others." 
   alt-text: Water burst
