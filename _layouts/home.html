@@ -104,8 +104,10 @@ layout: default
         <div class="gradient-standout">   
           <h1 class="text-gradient text-uppercase">{{ site.data.home.testimonial.heading }}</h1>
         </div>
-        <div class="mb-5">
-          <h4>{{ site.data.home.testimonial.credentials }}</h4>  
+        <div class="mb-3">
+	  {%- for content in site.data.home.testimonial.credentials -%}
+	  <h4>{{ content }}</h4>  
+	  {%- endfor -%}
         </div>
         <blockquote style="font-size: 1.2em">
           <p>{{ site.data.home.testimonial.text }}</p>
