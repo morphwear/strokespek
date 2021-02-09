@@ -20,7 +20,7 @@ header.masthead {
   .intro-text {
     @include heading-font;
     margin-top: 1em;
-    padding: auto 0;
+    margin: auto 0;
     .intro-title {
       font-size: 2.5em;
       margin-bottom: 0.25em;
