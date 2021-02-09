@@ -21,12 +21,15 @@ layout: default
 		</div>
 	      <div class="intro-heading">{{ site.data.home.intro.heading }}</div>
 	      <div class="text-center subheading">{{ site.data.home.intro.description }}</div>
-	      <a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn }}</a>
 	    </div>
     </div>
     <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
     <div class="row">
-      <div class="cta text-left my-2">{{ site.data.home.intro.cta-text }}</div>
+      <div class="col-md-10 cta text-left my-2">{{ site.data.home.intro.cta-text }}</div>
+      <div class="col-md-2">
+	<a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn }}</a>
+	<a class="mt-1 btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn2 }}</a>
+      </div>
     </div>
     <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
   </div>
