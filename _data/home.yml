@@ -11,7 +11,7 @@ features:
   one:
     heading: 
       - Train Smarter
-      - With Feedback
+      - " With Feedback"
     subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
     image: img/valueprop.png
     alt-text: Overhead shot of sensor on swimmer
