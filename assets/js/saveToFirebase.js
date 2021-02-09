@@ -4,12 +4,12 @@ function saveToFirebase(email) {
   };
   
   firebase.database().ref('email-signup-entries').push().set(emailObject)
-    .then(function(snapshot)) {
+    .then(function(snapshot) {
       success(); // some success method
     }, function(error) {
       console.log('error' + error);
       error(); //some error method
-    }
+    });
 }
 
 saveToFirebase(email);
