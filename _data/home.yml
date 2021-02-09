@@ -1,12 +1,13 @@
 intro:
   lead-in: Refine your stroke with
   title: Strokespek
-  heading: A new perspective for swimming faster smarter
-  btn: Learn More
+  heading: A new perspective for swimming faster, smarter
   description: Our wearable sensors capture and process stroke motions to reveal the finer details of your swimming technique.
   image: img/freestyle_hero.png
   alt-text: Freestyle swim with sensor
   cta-text: We are currently demoing and providing lessons with our sensors. Provide us with your email and we will let you know of our product updates, preorder availability, and local demos.
+  btn: Stay Informed
+  btn2: Learn More
 
 features:
   one:
