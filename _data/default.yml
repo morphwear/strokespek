@@ -23,6 +23,8 @@ quicklinks:
     url: '#'
   - title: Terms of Use
     url: '#'
+  - title: Sitemap
+    url: '#'
 
 modal:
   date-string: 'Date: '
