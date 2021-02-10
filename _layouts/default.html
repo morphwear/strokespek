@@ -59,34 +59,64 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">{{ site.data.default.copyright }}</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              {%- for sm in site.data.default.social-buttons -%}
+          
+          <div class="col-md-12 my-2">
+            <h1 class="brand text-gradient text-uppercase my-1">{{ site.data.default.brand.name }}</h1>            
+            <div class="row">
+              <ul class="list-inline social-buttons">
+                {%- for sm in site.data.default.social-buttons -%}
+                {% assign ws = '' %}
+                <li class="list-inline-item">
+                  <a href="{{ sm.url }}">
+                    <i class="{{ sm.icon }}"></i>
+                  </a>
+                </li>
+                {%- endfor -%}
               {% assign ws = '' %}
-              <li class="list-inline-item">
-                <a href="{{ sm.url }}">
-                  <i class="{{ sm.icon }}"></i>
-                </a>
+              </ul>
+            </div>
+          </div>      
+        
+          <div class="col-md-6">
+          <div class="mx-3 my-2">{{ site.data.default.footer.cta-text }}</div>
+          <div class="row">
+              <form id="footer-email-form" class="form text-uppercase">
+                <input type="text" id="email" name="email" placeholder="email address">
+                <button class="form-button" type="submit">{{ site.data.default.footer.button }}</button>
+              </form>
+          </div>
+            <div class="alert">{{ site.data.default.footer.form-alert }}</div>
+          </div>
+        
+          <div class="col-md-6">
+            <ul class="navbar-nav text-uppercase">
+              {%- for link in site.data.default.nav -%}
+              {% assign ws = '' %}
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
               </li>
               {%- endfor -%}
             {% assign ws = '' %}
             </ul>
           </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
+        
+          <div class="col-md-12">
+            <div class="row text-uppercase">
+              <ul class="list-inline quicklinks">
               {%- for ql in site.data.default.quicklinks -%}
+                {% assign ws = ' | ' %}
+                <li class="list-inline-item">
+                  <a href="{{ ql.url }}">{{ ql.title }}</a>
+                </li>
+                {%- endfor -%}
               {% assign ws = '' %}
-              <li class="list-inline-item">
-                <a href="{{ ql.url }}">{{ ql.title }}</a>
-              </li>
-              {%- endfor -%}
-            {% assign ws = '' %}
-            </ul>
+              </ul>
+              <span class="copyright">{{ site.data.default.copyright }}</span>
+            </div>
           </div>
-        </div>
+          
+          
+        </div> 
       </div>
     </footer>
 
@@ -150,28 +180,10 @@
     <!-- Custom scripts for this template -->
     <script src="{{ assets_path }}js/agency.min.js"></script>
 
-    
     <!-- The core Firebase JS SDK -->
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
-
     <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
-
-    <script>
-      // Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      var firebaseConfig = {
-        apiKey: "AIzaSyCAzQ8EnCrnBWb6mvxCnC49F1NVdnyXrhE",
-        authDomain: "mw-landing-site.firebaseapp.com",
-        projectId: "mw-landing-site",
-        storageBucket: "mw-landing-site.appspot.com",
-        messagingSenderId: "143218941547",
-        appId: "1:143218941547:web:3dc9366a2b7f63ffd0db2e",
-        measurementId: "G-LFB9KJEXNV"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
+    
     
   </body>
 
