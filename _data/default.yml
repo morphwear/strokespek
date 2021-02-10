@@ -9,6 +9,11 @@ nav:
     url: '#about'
   - title: Contact
     url: '#contact'
+    
+footer:
+  cta-text: Sign-up to our email list to learn more
+  button: Submit
+  alert: Email submitted.
 
 copyright: Copyright &copy; Morphwear LLC 2021
 
