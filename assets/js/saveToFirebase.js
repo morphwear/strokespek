@@ -14,16 +14,17 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
+var dbref = firebase.database().ref('email-signup-entries');
+
 // Listen for form submit
 document.getElementById('footer-email-form').addEventListener('submit', submitForm);
-
 
 function saveToFirebase(email) {
   var emailObject = {
     email: email
   };
   
-  firebase.database().ref('email-signup-entries').push().set(emailObject)
+  dbref.push().set(emailObject)
     .then(function(snapshot) {
       success();
     }, function(error) {
