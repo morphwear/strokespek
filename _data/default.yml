@@ -13,7 +13,7 @@ nav:
 footer:
   cta-text: Sign-up to our email list to learn more
   button: Submit
-  alert: Email submitted.
+  form-alert: Email submitted.
 
 copyright: Copyright &copy; Morphwear LLC 2021
 
