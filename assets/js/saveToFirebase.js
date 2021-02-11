@@ -36,7 +36,7 @@ function saveToFirebase(email) {
 function success() {
   // Show alert
   document.querySelector('.alert').style.display = "block";
-  document.getElementById('footer-email-form')[0].reset()
+  document.getElementById('footer-email-form').reset()
 };
 
 // Function to get form values
