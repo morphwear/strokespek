@@ -62,7 +62,7 @@
           
           <div class="col-md-12 my-2">
             <h1 class="brand text-gradient text-uppercase my-1">{{ site.data.default.brand.name }}</h1>            
-            <div class="row">
+            <div class="mt-2">
               <ul class="list-inline social-buttons">
                 {%- for sm in site.data.default.social-buttons -%}
                 {% assign ws = '' %}
@@ -78,13 +78,13 @@
           </div>      
         
           <div class="col-md-6">
-          <div class="mx-3 my-2">{{ site.data.default.footer.cta-text }}</div>
-          <div class="row">
+            <div class="cta">{{ site.data.default.footer.cta-text }}</div>
+            <div>
               <form id="footer-email-form" class="form text-uppercase">
                 <input type="text" id="email" name="email" placeholder="email address">
                 <button class="form-button" type="submit">{{ site.data.default.footer.button }}</button>
               </form>
-          </div>
+            </div>
             <div class="alert">{{ site.data.default.footer.form-alert }}</div>
           </div>
         
@@ -99,19 +99,21 @@
             {% assign ws = '' %}
             </ul>
           </div>
-        
+          
           <div class="col-md-12">
-            <div class="row text-uppercase">
+            <div>
               <ul class="list-inline quicklinks">
               {%- for ql in site.data.default.quicklinks -%}
                 {% assign ws = ' | ' %}
                 <li class="list-inline-item">
-                  <a href="{{ ql.url }}">{{ ql.title }}</a>
+                  <a href="{{ ql.url }}">{{ ql.title }}</a><span>{{ ws }}</span>
                 </li>
                 {%- endfor -%}
               {% assign ws = '' %}
+                <li class="list-inline-item">
+                  <span class="copyright">{{ site.data.default.copyright }}</span>
+                </li>
               </ul>
-              <span class="copyright">{{ site.data.default.copyright }}</span>
             </div>
           </div>
           
