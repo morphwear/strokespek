@@ -47,7 +47,7 @@ function submitForm(e) {
   e.preventDefault();
   
   // Get values
-  var email = getInputVal('email);
+  var email = getInputVal('email');
   
   // Save values                        
   saveToFirebase(email);
