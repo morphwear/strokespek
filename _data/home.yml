@@ -13,8 +13,7 @@ features:
   one:
     heading: 
       - Visual feedback of where you can improve
-    subheading: Our sensors can map your entire stroke including the underwater motions. Collecting data during the swim, our sensors trasnfer your performance\
-    over to the Strokespek app via Bluetooth to provide instant results.
+    subheading: Our sensors can map your entire stroke including the underwater motions. Collecting data during the swim, our sensors transfer your performance over to the Strokespek app via Bluetooth to provide instant results.
     image: img/valueprop.png
     alt-text: Overhead shot of sensor on swimmer
     subimage: img/devices_morphwear.png
