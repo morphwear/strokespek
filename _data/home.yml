@@ -12,29 +12,35 @@ intro:
 features:
   one:
     heading: 
-      - Train Smarter
-      - " With Feedback"
-    subheading: Practice technique on your own with wearable sensors providing instant results directly to your phone or tablet.
+      - Visual feedback of where you can improve
+    subheading: Our sensors can map your entire stroke including the underwater motions. Collecting data during the swim, our sensors trasnfer your performance\
+    over to the Strokespek app via Bluetooth to provide instant results.
     image: img/valueprop.png
     alt-text: Overhead shot of sensor on swimmer
     subimage: img/devices_morphwear.png
     sub-alt-text: Computer devices running Morphwear
   two:
     heading: 
-      - Identify Key 
-      - Performance Opportunities
+      - Identifying Performance Opportunities
     feature:
-      - subheading: Vertical pull versus stroke width
+      - subheading: Stroke Path
         image: img/charts_paths.png
         alt-text: Stroke path
-      - subheading: Left side speed versus right side speed
+      - subheading: Stroke Timing
         image: img/charts_progression.png
         alt-text: Stroke progressions
+    description: For the first time, we can take a look at all of your stroke positions and progressions at once, revealing the stroke path variations along with their arm speed and rotation.
+    
   three:
     heading: Compare For Yourself. See What Works Best.
-    text: Compare your stroke feel and adjustments to past performances or other elite athletes with intuitive visuals.
+    text: Changing your feel for the water for a new technique can be tricky but now you can compare your stroke feel and adjustments to past performance and elite performers. It's easy \
+    to spot the differences and recognize which feelings connect with the right motions. So you no longer have to guess the about the progress.
+    text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. \
+    There is no perfect technique but there are distinctive elite charactersitics to work up to.
     image: img/charts_compare.png
     alt-text: Stroke path comparisons
+    image-detail: Here is one example of how wefigured out how to make an adjustment. We found that our athlete was pulling too far back with their stroke in comparison to the elite stroke on the far right. \
+    With an earlier exit to his pull, our athlete dropped his average push 25 freestyle pace from 10.4 to 10.1 seconds. His experience follows...
   transition:
     image: img/wave_page_break.png
     alt-text: Wave transition
@@ -54,6 +60,13 @@ testimonial:
 about:
   heading: Insights for the next generation
   image: img/about.png
+  body: \
+  My name is Konrad Antoniuk. I have competed at Olympic Trials and currently building a business and product that I believe would have helped me reach my full potnetial in my early years of training.
+  Morphwear's mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.
+  Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. I understand the \
+  the commitment and skill required to compete at a high level.\
+  To ensure and prove the data's efficacy I am using the technology firsthand to assist myself in qualifying for the Olympic Trials. In addition, I have experinced siginificant success in using the \
+  technology on others, I feel it's time to make it available for others on their journey.
   text:
     columnA:
       - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
