@@ -33,14 +33,11 @@ features:
     
   three:
     heading: Compare For Yourself. See What Works Best.
-    text: Changing your feel for the water for a new technique can be tricky but now you can compare your stroke feel and adjustments to past performance and elite performers. It's easy \
-    to spot the differences and recognize which feelings connect with the right motions. So you no longer have to guess the about the progress.
-    text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. \
-    There is no perfect technique but there are distinctive elite charactersitics to work up to.
+    text: Changing your feel for the water for a new technique can be tricky but now you can compare your stroke feel and adjustments to past performance and elite performers. It's easy to spot the differences and recognize which feelings connect with the right motions. So you no longer have to guess the about the progress.
+    text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. There is no perfect technique but there are distinctive elite charactersitics to work up to.
     image: img/charts_compare.png
     alt-text: Stroke path comparisons
-    image-detail: Here is one example of how wefigured out how to make an adjustment. We found that our athlete was pulling too far back with their stroke in comparison to the elite stroke on the far right. \
-    With an earlier exit to his pull, our athlete dropped his average push 25 freestyle pace from 10.4 to 10.1 seconds. His experience follows...
+    image-detail: Here is one example of how wefigured out how to make an adjustment. We found that our athlete was pulling too far back with their stroke in comparison to the elite stroke on the far right. With an earlier exit to his pull, our athlete dropped his average push 25 freestyle pace from 10.4 to 10.1 seconds. His experience follows...
   transition:
     image: img/wave_page_break.png
     alt-text: Wave transition
@@ -60,13 +57,10 @@ testimonial:
 about:
   heading: Insights for the next generation
   image: img/about.png
-  body: \
-  My name is Konrad Antoniuk. I have competed at Olympic Trials and currently building a business and product that I believe would have helped me reach my full potnetial in my early years of training.
+  body: "My name is Konrad Antoniuk. I have competed at Olympic Trials and currently building a business and product that I believe would have helped me reach my full potnetial in my early years of training.
   Morphwear's mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.
-  Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. I understand the \
-  the commitment and skill required to compete at a high level.\
-  To ensure and prove the data's efficacy I am using the technology firsthand to assist myself in qualifying for the Olympic Trials. In addition, I have experinced siginificant success in using the \
-  technology on others, I feel it's time to make it available for others on their journey.
+  Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. I understand the the commitment and skill required to compete at a high level.
+  To ensure and prove the data's efficacy I am using the technology firsthand to assist myself in qualifying for the Olympic Trials. In addition, I have experinced siginificant success in using the technology on others, I feel it's time to make it available for others on their journey."
   text:
     columnA:
       - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
