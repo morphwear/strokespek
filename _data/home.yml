@@ -56,10 +56,11 @@ testimonial:
 about:
   heading: Insights for the next generation
   image: img/about.png
-  body: "My name is Konrad Antoniuk. I have competed at Olympic Trials and currently building a business and product that I believe would have helped me reach my full potnetial in my early years of training.
-  Morphwear's mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.
-  Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. I understand the the commitment and skill required to compete at a high level.
-  To ensure and prove the data's efficacy I am using the technology firsthand to assist myself in qualifying for the Olympic Trials. In addition, I have experinced siginificant success in using the technology on others, I feel it's time to make it available for others on their journey."
+  body: 
+    - My name is Konrad Antoniuk. I have competed at Olympic Trials and currently building a business and product that I believe would have helped me reach my full potnetial in my early years of training.
+    - Morphwear's mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals.
+    - Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. I understand the the commitment and skill required to compete at a high level.
+    - To ensure and prove the data's efficacy I am using the technology firsthand to assist myself in qualifying for the Olympic Trials. In addition, I have experinced siginificant success in using the technology on others, I feel it's time to make it available for others on their journey.
   text:
     columnA:
       - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
