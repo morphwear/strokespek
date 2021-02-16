@@ -133,7 +133,9 @@ layout: default
     </div>
     <div style="font-size: 1.2em;" class="row">
       <div style="margins: 4em 2em;" class="col-md-12">
-	<p>{{ site.data.home.about.body }}</p>  
+	{%- for content in site.data.home.about.body -%}
+	   <p>{{ content }}</p>  
+	{%- endfor -%}
       </div>
     </div>
   </div>
