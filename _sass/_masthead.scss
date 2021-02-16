@@ -9,13 +9,12 @@ header.masthead {
   background-size: cover;
   @include background-mobile;
   .nav-offset {
-    margin-top: 6em;
+    margin-top: 5em;
   }
   .image {
-    width: 110%;
+    width: 100%;
     float: right;
     object-fit: cover;
-    margin-right: -5%;
   }
   .intro-text {
     @include heading-font;
