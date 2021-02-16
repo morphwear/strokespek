@@ -64,12 +64,13 @@ layout: default
 	<h1>{{ content }}</h1>
 	{%- endfor -%}
       </div>
+      <div class="margin: 3em 2em;">{{ site.data.home.features.two.description }}</div>
       {%- for feature in site.data.home.features.two.feature -%}
       <div class="col-md-6 text-center">
         <div>
 	  <h4>{{ feature.subheading }}</h4>
 	</div>
-	<img style="width: 90%" class="" src="{{ feature.image }}" alt="{{ feature.alt-text }}"/>
+	<img style="width: 100%" class="" src="{{ feature.image }}" alt="{{ feature.alt-text }}"/>
       </div>
       {%- endfor -%}
     </div>
@@ -83,7 +84,9 @@ layout: default
       </div>
       <div class="col-lg-12 text-center">
 	<h4>{{ site.data.home.features.three.text }}</h4>
-	<img style="width: 80%; margin: 3em" src="{{ site.data.home.features.three.image }}" alt="{{ site.data.home.features.three.alt-text }}"/>
+	<h4>{{ site.data.home.features.three.text-next }}</h4>
+	<img class="my-3" src="{{ site.data.home.features.three.image }}" alt="{{ site.data.home.features.three.alt-text }}"/>
+	<h4>{{ site.data.home.features.three.image-detail }}</h4>
       </div>
     </div>		 
   </div>
@@ -128,15 +131,8 @@ layout: default
       </div>
     </div>
     <div style="font-size: 1.2em;" class="row">
-      <div class="col-sm-6">	     
-        {%- for text in site.data.home.about.text.columnA -%}
-        <p>{{ text }}</p>
-        {%- endfor -%}
-      </div>
-      <div class="col-sm-6">	     
-        {%- for text in site.data.home.about.text.columnB -%}
-        <p>{{ text }}</p>
-        {%- endfor -%}
+      <div style="margins: 4em 2em;" class="col-md-12">
+	<p>{{ site.data.home.about.body }}</p>  
       </div>
     </div>
   </div>
