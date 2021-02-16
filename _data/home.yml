@@ -23,18 +23,18 @@ features:
       - Identifying Performance Opportunities
     feature:
       - subheading: Stroke Path
-        image: img/charts_paths.png
+        image: img/highlighted_strokepaths.png
         alt-text: Stroke path
-      - subheading: Stroke Timing
-        image: img/charts_progression.png
-        alt-text: Stroke progressions
+      - subheading: Stroke Speed Progression
+        image: img/speed_progressions.png
+        alt-text: Stroke speed progressions
     description: For the first time, we can take a look at all of your stroke positions and progressions at once, revealing the stroke path variations along with their arm speed and rotation.
     
   three:
     heading: Compare For Yourself. See What Works Best.
     text: Changing your feel for the water for a new technique can be tricky but now you can compare your stroke feel and adjustments to past performance and elite performers. It's easy to spot the differences and recognize which feelings connect with the right motions. So you no longer have to guess the about the progress.
     text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. There is no perfect technique but there are distinctive elite charactersitics to work up to.
-    image: img/charts_compare.png
+    image: img/strokepath_comparison.png
     alt-text: Stroke path comparisons
     image-detail: Here is one example of how wefigured out how to make an adjustment. We found that our athlete was pulling too far back with their stroke in comparison to the elite stroke on the far right. With an earlier exit to his pull, our athlete dropped his average push 25 freestyle pace from 10.4 to 10.1 seconds. His experience follows...
   transition:
