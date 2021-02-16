@@ -49,10 +49,9 @@ layout: default
 	<div>
 	  <h4>{{  site.data.home.features.one.subheading  }}</h4>
 	</div>
-	<img style="width: 120%; object-fit: cover; margin-top: 1em; margin-left: -10%;" src="{{ site.data.home.features.one.subimage }}" alt="{{ site.data.home.features.one.sub-alt-text }}" />
-      </div>
+	</div>
       <div class="col-md-6 text-center">
-	<img style="width: 120%; margin-left: -10%" src="{{ site.data.home.features.one.image }}" alt="{{ site.data.home.features.one.alt-text }}" />
+	<img style="width: 100%;" src="{{ site.data.home.features.one.image }}" alt="{{ site.data.home.features.one.alt-text }}" />
       </div>
       <img class="feature-image-break" src="{{ site.data.home.features.transition.image }}" alt="{{ site.data.home.features.transition.alt-text }}" />
     </div>
@@ -64,7 +63,9 @@ layout: default
 	<h1>{{ content }}</h1>
 	{%- endfor -%}
       </div>
-      <div class="margin: 3em 2em;">{{ site.data.home.features.two.description }}</div>
+      <div class="margin: 3em 2em;">
+	<h4>{{ site.data.home.features.two.description }}</h4>
+      </div>
       {%- for feature in site.data.home.features.two.feature -%}
       <div class="col-md-6 text-center">
         <div>
