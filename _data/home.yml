@@ -38,7 +38,7 @@ features:
     text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. There is no perfect technique but there are distinctive elite charactersitics to work up to.
     image: img/strokepath_comparison.png
     alt-text: Stroke path comparisons
-    image-detail: Here is one example of how we made an adjustment for an experienced swimmer that was already holding a pace of 10.4 seconds on his 25s freestyle from a push. In the above image we found that in his original stroke on the left in blue he was pulling too far back in comparison to the elite stroke on the far right in yellow. By identifying an adjustment to make his arm exit sooner from the pull phase, the athlete's average instantly dropped down to a new pace of 10.1 seconds. His experience follows...
+    image-detail: Here is one example of how we made an adjustment for an experienced swimmer that was already holding a pace of 10.4 seconds on his 25s freestyle from a push. In the above image we found that in his original stroke on the left in blue he was pulling too far back in comparison to the elite stroke on the far right in yellow. By identifying an adjustment to make his arm exit sooner from the pull phase, the athlete's average instantly dropped down to a new pace of 10.1 seconds.
   transition:
     image: img/wave_break_image.png
     alt-text: Wave transition
