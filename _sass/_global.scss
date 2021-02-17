@@ -84,17 +84,23 @@ section {
   }
 }
 
+@media(min-width:1201px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 // Medium and small screens
 @media(max-width:1200px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 // Medium and small screens
 @media(max-width:991px) {
   html {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
