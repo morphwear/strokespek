@@ -42,8 +42,6 @@ features:
   transition:
     image: img/wave_break_image.png
     alt-text: Wave transition
-    
-# Save time and energy with a new perspective by finding opportunities or issues easier and focusing on hidden details.
 
 testimonial:
   section-heading: Testimonial
@@ -63,16 +61,9 @@ about:
   heading: Insights for the next generation
   image: img/about.png
   body: 
+    - Morphwear's mission is to enable the next generational leap in athletic performance through smarter training. Our products focus on providing athletes a measured approach toward achieving their goals. Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by.
     - My name is Konrad Antoniuk, the product architect behind Strokespek. I have previously competed at the 2012 Olympic Trials and currently focused on building a business and product that I believe would have immensely helped me early in my swimming career.
-    - Morphwear's mission is to enable the next generational leap in athletic performance through smarter training. Our products focus on providing athletes a measured approach toward achieving their goals. Beginning with competitive swimming, we are debuting our motion analysis algorithms in a sport where mechanical efficiency is critical and objective feedback is hard to come by. 
-    - I understand the commitment and sacrifices required to compete at a high level and I want to ensure that I have built something that can reliably help others that have put their heart into training. To prove the data's efficacy, I am using the technology firsthand to requalify for the 2021 Olympic Trials. In addition, I have experienced siginificant success in using the technology on many athletes and at this point I feel it's time to make it available for others on their journey.
-  text:
-    columnA:
-      - "Morphwear’s mission is to enable the next generational leap in athletic performance with smarter training. Our products focus on providing athletes a measured approach toward achieving their goals."
-      - "Beginning with competitive swimming, we are launching the application of our sport motion analysis embedded with Strokespek." 
-    columnB: 
-      - "In a sport where mechanical efficiency is critical and feedback is hard to come by, our founder understands the commitment and skill required to compete at a high level as a former Olympic Trials qualifier."
-      - "To ensure and prove the data’s efficacy we use the technology firsthand to assist ourselves in qualifying for the next Olympic Trials, and since we have experienced significant success in using our technology, we feel its the time to make it available for others." 
+    - I understand the commitment and sacrifices required to compete at a high level and I want to ensure that I have built something that can reliably help others that have put their heart into training. To prove the data's efficacy, I am using the technology firsthand to requalify for the 2021 Olympic Trials. In addition, I have experienced siginificant success in using the technology on many athletes and at this point I feel it's time to make it available for more swimmers on their journey.
   alt-text: Water burst
       
 # footer:
