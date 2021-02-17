@@ -12,7 +12,7 @@ intro:
 features:
   one:
     heading: 
-      - See where you can improve
+      - How it works
     subheading: 
       - Our sensors collect data while you swim and then transfer your performance to the Strokespek app to generate visual results. They are light and located strategically to capture a clean stroke without affectng your feel for the water.
       - Each stroke is unique but our data visuals reveal the hidden patterns within path variations and the timing of rotations and arm speed throughtout the stroke cycle. Notice the differences of successive left arm freestyle strokes in the image.
@@ -22,7 +22,7 @@ features:
     sub-alt-text: Computer devices running Morphwear
   two:
     heading: 
-      - Identifying Performance Opportunities
+      - See where you can improve
     feature:
       - subheading: Stroke Path
         image: img/highlighted_strokepaths.png
@@ -33,7 +33,7 @@ features:
     description: For the first time we can map your entire stroke cycle including what is happening underwater. The strategic arrangements, highlights, and overlays enable us to analyze all stroke positions and progressions at once. Click on the following charts for a closer look and more details on what each chart can reveal.
     
   three:
-    heading: Compare For Yourself. See What Works Best.
+    heading: Compare For Yourself. Find What Works Best.
     text: Changing your tehnique or developing a new feel for the water can be tricky and is pretty much a guessing game. But now you can compare your stroke feel and adjustments to past performance and elite performers. It's easy to spot the differences and recognize which feelings connect with the right motions so you no longer have to guess how much progress you've made.
     text-next: At Morphwear we continue to collect stroke data to build out our library across a range of swimmer experience to provide suitable targets for different levels. There is no perfect technique but there are distinctive elite charactersitics to work up to.
     image: img/strokepath_comparison.png
