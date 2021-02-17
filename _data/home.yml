@@ -13,8 +13,9 @@ features:
   one:
     heading: 
       - See where you can improve
-    subheading: Our sensors collect data while you swim and then transfer your performance to the Strokespek app to generate visual results. They are light and located strategically to capture a clean stroke without affectng your feel for the water.
-    Each stroke is unique but our data visuals reveal the hidden patterns within path variations and the timing of rotations and arm speed throughtout the stroke cycle. Notice the differences of successive left arm freestyle strokes in the image.
+    subheading: 
+      - Our sensors collect data while you swim and then transfer your performance to the Strokespek app to generate visual results. They are light and located strategically to capture a clean stroke without affectng your feel for the water.
+      - Each stroke is unique but our data visuals reveal the hidden patterns within path variations and the timing of rotations and arm speed throughtout the stroke cycle. Notice the differences of successive left arm freestyle strokes in the image.
     image: img/valueprop.png
     alt-text: Overhead shot of sensor on swimmer
     subimage: img/devices_morphwear.png
