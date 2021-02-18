@@ -26,11 +26,12 @@ layout: default
     <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
     <div class="row">
       <div class="col-md-12 cta text-left my-2">{{ site.data.home.intro.cta-text }}</div>
-      <div class="text-center">
+      <div class="mx-auto">
 	<form id="header-email-form" class="form text-uppercase">
-          <input type="email" id="email" name="email" placeholder="Email address" class="text-input" style="width: 300px;">
+          <input type="email" id="email" name="email" placeholder="Email address" class="text-input btn" style="width: 300px; background-color: #e2e2e2;">
+          <div class="alert">{{ site.data.default.footer.form-alert }}</div>
 	  <button class="btn btn-primary btn-xl btn-sm text-uppercase" type="submit">{{ site.data.home.intro.btn }}</button>
-	  <a class="mt-1 btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn2 }}</a>
+	  <a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn2 }}</a>
 	</form>
 	<div class="alert">{{ site.data.default.footer.form-alert }}</div>
       </div>
