@@ -128,6 +128,22 @@ layout: default
   </div>
 </section>
 
+<!-- CTA -->
+<section id="cta-section">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto">
+	<form id="cta-section-email-form" class="form text-uppercase">
+          <input type="email" id="cta-section-email" name="email" placeholder="Email address" class="text-input btn" style="width: 300px; background-color: #e2e2e2; outline: auto;">
+          <button class="btn btn-primary btn-xl btn-sm text-uppercase" type="submit">{{ site.data.home.intro.btn }}</button>
+	  <a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn2 }}</a>
+	</form>
+	<div class="cta-section-alert">{{ site.data.default.footer.form-alert }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- About -->
 <section id="about">
   <div class="container">
