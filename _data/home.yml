@@ -53,7 +53,7 @@ testimonial:
   image: img/testimonial.png
   alt-text: Leif Kluver
 
-big-cta:
+cta-section:
   heading: One thing we've learned from our research when talking to swimmers and coaches is that feeling faster than last time is simply not enough. It used to be a part of the sport that we had to accept but now there is an option. 
   cta: Find out how you can start swimming faster and training smarter by joining our emai list.
 
