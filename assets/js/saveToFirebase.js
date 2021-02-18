@@ -75,7 +75,7 @@ function success(id) {
 
 // Function to get form values
 function getEmailInputValFrom(id) {
-  return document.getElementById(id+'-email-form').value;
+  return document.getElementById(id+'-email').value;
 };
 
 /*function submitForm(e) {
