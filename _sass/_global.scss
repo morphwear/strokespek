@@ -165,3 +165,10 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+// Form feedback
+  .alert {
+    padding: 1em;
+    display: None;
+    color: green;
+  }
