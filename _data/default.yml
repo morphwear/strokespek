@@ -19,9 +19,9 @@ copyright: Copyright &copy; Morphwear LLC 2021
 
 social-buttons:
   - icon: fa fa-twitter
-    url: '#' 
+    url: 'https://twitter.com/k_antoniuk' 
   - icon: fa fa-instagram
-    url: '#'
+    url: https://www.instagram.com/morphwear/
 
 quicklinks:
   - title: Privacy Policy
