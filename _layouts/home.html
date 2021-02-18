@@ -25,11 +25,15 @@ layout: default
     </div>
     <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
     <div class="row">
-      <div class="col-md-10 cta text-left my-2">{{ site.data.home.intro.cta-text }}</div>
-      <div class="col-md-2">
-	<a class="btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn }}</a>
+      <div class="col-md-12 cta text-left my-2">{{ site.data.home.intro.cta-text }}</div>
+      <div>
+	<form id="header-email-form" class="form text-uppercase">
+          <input type="email" id="email" name="email" placeholder="EMAIL ADDRESS" class="text-input">
+	  <button class="btn btn-primary btn-xl btn-sm text-uppercase" type="submit">{{ site.data.home.intro.btn }}</button>
+	</form>
 	<a class="mt-1 btn btn-primary btn-xl btn-sm text-uppercase js-scroll-trigger" href="#features">{{ site.data.home.intro.btn2 }}</a>
       </div>
+      <div class="alert">{{ site.data.default.footer.form-alert }}</div>
     </div>
     <hr style="border-top: 3px solid #bbb; border-radius: 5px; width: 30%">
   </div>
