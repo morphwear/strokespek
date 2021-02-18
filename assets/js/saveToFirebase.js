@@ -39,7 +39,7 @@ document.getElementById('cta-section-email-form').addEventListener('submit', fun
   }
 });
 
-document.getElementById('header-email-form').addEventListener('submit', function(e) {
+document.getElementById('footer-email-form').addEventListener('submit', function(e) {
   e.preventDefault();
   // Get values
   var email = getEmailInputValFrom('footer');
