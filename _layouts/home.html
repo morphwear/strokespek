@@ -131,15 +131,20 @@ layout: default
 <!-- CTA -->
 <section id="cta-section">
   <div class="container">
-    <div class="row">
-      <div>{{ site.data.home.cta-section.heading }}</div>
-      <div>{{ site.data.home.cta-section.cta }}</div>
-      <div class="mx-auto">
-	<form id="cta-section-email-form" class="form text-uppercase">
-          <input type="email" id="cta-section-email" name="email" placeholder="Email address" class="text-input btn" style="width: 300px; background-color: #e2e2e2; outline: auto;">
-          <button class="btn btn-primary btn-xl btn-sm text-uppercase" type="submit">{{ site.data.home.intro.btn }}</button>
-	</form>
-	<div id="cta-section-alert" class="alert">{{ site.data.default.footer.form-alert }}</div>
+    <div class="row row-reverse">
+      <div class="col-md-6">
+	      <div>{{ site.data.home.cta-section.heading }}</div>
+	      <div>{{ site.data.home.cta-section.cta }}</div>
+	      <div class="mx-auto">
+		<form id="cta-section-email-form" class="form text-uppercase">
+		  <input type="email" id="cta-section-email" name="email" placeholder="Email address" class="text-input btn" style="width: 300px; background-color: #e2e2e2; outline: auto;">
+		  <button class="btn btn-primary btn-xl btn-sm text-uppercase" type="submit">{{ site.data.home.intro.btn }}</button>
+		</form>
+		<div id="cta-section-alert" class="alert">{{ site.data.default.footer.form-alert }}</div>
+	      </div>
+      </div>
+      <div class="col-md-6">
+	<img style="width: 100%" src="{{ site.data.home.cta-section.image }}" alt="{{ site.data.home.cta-section.alt-text }}" />
       </div>
     </div>
   </div>
