@@ -18,6 +18,7 @@ var dbref = firebase.database().ref('email-signup-entries');
 
 // Listen for form submit
 document.getElementById('footer-email-form').addEventListener('submit', submitForm);
+document.getElementById('header-email-form').addEventListener('submit', submitForm);
 
 function saveToFirebase(email) {
   var emailObject = {
