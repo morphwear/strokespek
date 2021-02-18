@@ -17,36 +17,68 @@ firebase.analytics();
 var dbref = firebase.database().ref('email-signup-entries');
 
 // Listen for form submit
-document.getElementById('footer-email-form').addEventListener('submit', submitForm);
-document.getElementById('header-email-form').addEventListener('submit', submitForm);
+document.getElementById('header-email-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  // Get values
+  var email = getEmailInputValFrom('header');
+  
+  // Save values
+  if (email) {
+    saveToFirebase(email, 'header');
+  }
+});
 
-function saveToFirebase(email) {
+document.getElementById('cta-section-email-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  // Get values
+  var email = getEmailInputValFrom('cta-section');
+  
+  // Save values
+  if (email) {
+    saveToFirebase(email, 'cta-section');
+  }
+});
+
+document.getElementById('header-email-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  // Get values
+  var email = getEmailInputValFrom('footer');
+  
+  // Save values
+  if (email) {
+    saveToFirebase(email, 'footer');
+  }
+});
+
+
+//document.getElementById('footer-email-form').addEventListener('submit', submitForm);
+
+function saveToFirebase(email, formId) {
   var emailObject = {
     email: email
   };
   
   dbref.push().set(emailObject)
     .then(function(snapshot) {
-      success();
+      success(formId);
     }, function(error) {
       console.log('error' + error);
       //error(); //some error method
     });
 }
 
-function success() {
+function success(id) {
   // Show alert
-  document.querySelector('.alert').style.display = "block";
-  document.getElementById('footer-email-form').reset()
+  document.getElementById(id+'-alert').style.display = "block";
+  document.getElementById(id+'-email-form').reset();
 };
 
 // Function to get form values
-function getInputVal(id) {
-  return document.getElementById(id).value;
+function getEmailInputValFrom(id) {
+  return document.getElementById(id+'-email-form').value;
 };
 
-
-function submitForm(e) {
+/*function submitForm(e) {
   e.preventDefault();
   
   // Get values
@@ -54,4 +86,4 @@ function submitForm(e) {
   
   // Save values                        
   saveToFirebase(email);
-};
+};*/
