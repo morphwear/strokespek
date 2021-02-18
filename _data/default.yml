@@ -5,10 +5,10 @@ menu-string: Menu
 nav:
   - title: Features
     url: '#features'
+  - title: Testimonial
+    url: '#testimonial'
   - title: About
     url: '#about'
-  - title: Contact
-    url: '#contact'
     
 footer:
   cta-text: Sign-up to our email list to learn more
